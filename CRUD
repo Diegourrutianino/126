@@ -1,0 +1,21 @@
+package model;
+
+public class Producto {
+    private String codigoProducto;
+    private String nombre;
+    private String descripcion;
+    private double precioBase;
+    private double precioVenta;
+    private String categoria;
+    private int cantidadDisponible;
+
+ 
+
+    public Producto(String pCodigoProducto, String pNombreProducto, String pDescripcion, double pPrecioBase, double pPrecioVenta, String pCategoria, int pCantidadDisponible) {
+		this.codigoProducto = pCodigoProducto;
+		this.nombre = pNombreProducto;
+		this.descripcion = pDescripcion;
+		this.precioBase = pPrecioBase;
+		this.precioVenta = pPrecioVenta;
+		this.categoria = pCategoria;
+		this.cantidadDisponible = pCantidadDisponible;
